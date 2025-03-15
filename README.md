@@ -26,6 +26,5 @@ Before you get started, ensure you have the following installed:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/laravel-roles-permissions.git
+git clone https://github.com/hussainna/RBCA.git
 cd laravel-roles-permissions
-```bash
