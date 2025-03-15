@@ -1,6 +1,6 @@
 # Laravel Roles and Permissions API
 
-This Laravel project provides a robust implementation of roles and permissions with advanced features such as dynamic role assignment, audit trail, and API documentation. The system is designed to store roles and permissions in the database, and users can have multiple roles with immediate updates to their roles and permissions.
+This Laravel project provides a robust implementation of roles and permissions with advanced features such as dynamic role assignment and audit trail. The system is designed to store roles and permissions in the database, and users can have multiple roles with immediate updates to their roles and permissions.
 
 ## Features
 
@@ -8,19 +8,16 @@ This Laravel project provides a robust implementation of roles and permissions w
   - Permissions support CRUD operations at the record level.
 - **Dynamic Role Assignment**: Users can have multiple roles, and changes take immediate effect without re-authentication.
 - **Audit Trail**: Comprehensive auditing of who made each change, the before-and-after state, and timestamps.
-- **API Documentation**: Clear and concise documentation via Swagger/OpenAPI.
 - **Security & Validation**: Includes rate-limiting and protection against unauthorized access.
 
 ## Prerequisites
 
 Before you get started, ensure you have the following installed:
 
-- PHP (8.0 or higher)
+- PHP (10 or higher)
 - Composer
 - Laravel (latest stable version)
-- MySQL or another compatible database
-- Node.js (for running front-end assets)
-- Swagger (for API documentation)
+- Postgres or another compatible database
 
 ## Setup Instructions
 
