@@ -53,7 +53,7 @@ DB_PASSWORD=
 php artisan migrate:fresh --seed
 ```
 
-### Now you can run the project
+### 5. Now you can run the project
 
 ```bash
 php artisan serve
