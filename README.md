@@ -14,7 +14,7 @@ This Laravel project provides a robust implementation of roles and permissions w
 
 Before you get started, ensure you have the following installed:
 
-- PHP (10 or higher)
+- PHP (8 or higher)
 - Composer
 - Laravel (latest stable version)
 - Postgres or another compatible database
