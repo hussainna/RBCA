@@ -28,3 +28,33 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/hussainna/RBCA.git
 cd laravel-roles-permissions
+```
+
+### 2. Install Project
+
+```bash
+composer install
+```
+
+### 3. configure the database .env
+
+```bash
+DB_CONNECTION=pgsql
+DB_HOST=localhost
+DB_PORT=5432
+DB_DATABASE=database_name
+DB_USERNAME=
+DB_PASSWORD=
+```
+
+### 4. Migrate the migration files and seeders
+
+``` bash
+php artisan migrate:fresh --seed
+```
+
+### Now you can run the project
+
+```bash
+php artisan serve
+```
