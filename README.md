@@ -27,7 +27,7 @@ Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/hussainna/RBCA.git
-cd laravel-roles-permissions
+cd RBCA
 ```
 
 ### 2. Install Project
